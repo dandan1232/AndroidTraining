@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SchoolActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4682B4">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_back" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="10dp"
+                android:text="与我联系"
+                android:textColor="#024894"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="158dp"
+                android:layout_height="134dp"
+                android:src="@drawable/avatar"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="110dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QQ:345652127"
+                android:layout_marginTop="30dp"
+                android:textColor="#00695C"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VX:waitu1232"
+                android:textColor="#00695C"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:345652127@qq.com"
+                android:textColor="#00695C"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TEL:18962494510"
+                android:textColor="#00695C"
+                android:textSize="25dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <Button
+                android:id="@+id/btn_call"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="100dp"
+                android:text="Call"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

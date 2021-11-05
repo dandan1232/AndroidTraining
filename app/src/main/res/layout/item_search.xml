@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_search"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_white_button_style"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/spacing_normal"
+        android:paddingBottom="@dimen/spacing_normal"
+        android:paddingLeft="@dimen/spacing_larger"
+        android:paddingRight="@dimen/spacing_larger">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_smaller"
+            android:text="学号:"
+            android:textSize="@dimen/font_large"/>
+
+        <TextView
+            android:id="@+id/tv_search_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_normal"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_large"
+            tools:text="1902343231"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_smaller"
+            android:text="姓名:"
+            android:textSize="@dimen/font_large"/>
+
+        <TextView
+            android:id="@+id/tv_search_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_large"
+            tools:text="林丹丹"/>
+    </LinearLayout>
+
+    <View
+        style="@style/WireThinHorizontal"/>
+</LinearLayout>

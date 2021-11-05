@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    tools:context=".activity.ExamTwoActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4682B4"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/textView6"
+
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="100dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:lineSpacingExtra="8sp"
+
+        android:text="下列哪一项不是当代大学生该做的事？"
+
+        android:textAllCaps="true"
+
+        android:textAppearance="@style/TextAppearance.AppCompat"
+
+        android:textSize="30sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <RadioGroup
+
+        android:id="@+id/radioGroup"
+
+        android:layout_width="0dp"
+
+        android:layout_height="220dp"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="24dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginRight="8dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+
+
+        <RadioButton
+
+            android:id="@+id/radioButton1"
+
+            android:layout_width="136dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:text="混吃等死"
+
+            android:textSize="24sp"
+
+            android:textStyle="bold" />
+
+
+
+        <RadioButton
+
+            android:id="@+id/radioButton2"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:text="早睡早起"
+
+            android:textSize="24sp"
+
+            android:textStyle="bold"
+
+            tools:layout_editor_absoluteX="31dp"
+
+            tools:layout_editor_absoluteY="107dp" />
+
+
+
+        <RadioButton
+
+            android:id="@+id/radioButton3"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:text="充满能量"
+
+            android:textSize="24sp"
+
+            android:textStyle="bold" />
+
+
+        <RadioButton
+
+            android:id="@+id/radioButton4"
+
+            android:layout_width="148dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:text="热爱学习"
+
+            android:textAllCaps="false"
+
+            android:textSize="24sp"
+
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+
+
+    <Button
+
+        android:id="@+id/button4"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:text="上一题"
+
+        android:textAllCaps="false"
+
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+
+        app:layout_constraintHorizontal_bias="0.795"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+
+        app:layout_constraintVertical_bias="0.504" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+
+        android:id="@+id/guideline5"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.5" />
+
+
+
+    <Button
+
+        android:id="@+id/button5"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:text="下一题"
+
+        android:textAllCaps="false"
+
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.2"
+
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

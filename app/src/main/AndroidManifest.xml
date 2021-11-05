@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="online.danbao.studentinfomanager2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentInfoManager2">
+        <activity android:name=".activity.AboutActivity"></activity>
+        <activity android:name=".activity.CallActivity" />
+        <activity android:name=".activity.ExamFourActivity" />
+        <activity android:name=".activity.ExamThreeActivity" />
+        <activity android:name=".activity.ExamTwoActivity" />
+        <activity android:name=".activity.ExamOneActivity" />
+        <activity android:name=".activity.SchoolActivity" />
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="true" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.MyInfoActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.EditActivity" />
+        <activity android:name=".activity.MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SchoolActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4682B4">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_back" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="270dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="学校简介"
+                android:textStyle="bold"
+                android:textColor="#024894"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="南京工业职业技术大学毗邻著名的钟山风景区，是一所历史悠久、底蕴厚重的百年名校。前身是我国近现代民主革命家、社会活动家、教育家黄炎培先生创建于1918年的中华职业学校——我国第一所以“职业”冠名的学校。1952年，黄炎培出任政务院副总理兼首任轻工业部部长，将学校交由轻工业部管理；1954年，更名为上海机械学校；1960年，整体搬迁至南京，更名为轻工业部南京机电学校；1998年，由轻工业部划归江苏省管理；1999年，升格为高等职业院校，更名为南京工业职业技术学院；2019年，升格为职业本科学校，暂定名为南京工业职业技术学院（本科）；2020年6月，经教育部批准更名为南京工业职业技术大学。百年传承、薪火相继，学校培养了张闻天、华罗庚、江竹筠、徐伯昕、朱森林、秦怡、顾心怿、王世绩、邹世昌等一批杰出校友及大批实用型技术人才。
+
+学校有仙林、中山、天堂三个校区，占地面积1360余亩，建筑面积46万平方米；教学仪器设备值约2.5亿元；图书118万册；设有14个本科专业、47个专科专业。全日制在校生13338人，其中，首届本科生1916人。外国留学生154人。教职员工1000余人，专任教师中具有硕博学位的教师占90%以上，高级职称教师占42%，双师素质教师占90%以上。
+
+学校高度重视人才队伍建设，加大引才用才力度。拥有以全国黄大年式教师团队为代表的国家级教师团队3个，省级教学和科技创新团队14个，全国技术能手7人，国务院特贴、省名师、省级“333工程”培养对象、青蓝工程培养对象、六大人才高峰培养对象、双创博士、紫金文化创意人才、社科优青、南京市劳模、南京市“五一劳动奖章”、南京市“十佳职教教师”等150余人。教育部高等学校教学指导委员会委员2人、全国行业职业教育教学指导委员会副主任委员2人、委员11人。
+
+学校健全和完善“分层分类、做学合一、双创融合”人才培养模式，持续推进教育教学改革。建有国家级职业教育专业教学资源库项目4个、中央财政支持的职业教育实训基地3个、国家精品课程、精品资源共享课和在线开放课程12门、国家规划教材46部；获国家级教学成果奖3项，其中一等奖1项；全国职业院校教学能力比赛、信息化教学大赛一等奖3项；全国职业院校技能大赛一等奖29项、全国大学生数学建模竞赛一等奖10项、全国大学生电子设计竞赛一等奖9项。中国国际“互联网+”大学生创新创业大赛金奖3项，银奖2项、铜奖9项。
+
+学校坚持走产教融合、校企合作之路，持续提升科研和社会服务能力。主持在研的国家自然基金项目7项、国家社科基金项目3项、省部级项目17项；获批国家“十三五”产教融合发展工程规划项目1个、省发改委工程研究中心1个、省高校协同创新中心（职业院校工程技术中心）1个、省产教深度融合实训平台2个、省级大学科技园1个；与31家世界500强企业建立深度合作关系，与华为、西门子、ABB、现代重工、罗克韦尔等领军企业建立合作平台15个。
+
+学校与世界职教院校联盟（WFCP）等40多个国家（地区）的90余家境外组织和院校保持稳固的联系，获得全球职教界的最高荣誉——世界职教院校联盟卓越奖“应用研究与创新”金奖。2017年至2019年连续三年蝉联全国高职院校国际影响力50强。有来自40多个国家的400余名外国留学生在我校学习。
+
+学校整合多方资源，积极搭建平台，以特色优势服务职教、以优质资源贡献职教。牵头黄炎培职业教育思想研究院、全国高职院校创新创业教育联盟、中国教育国际交流协会职教分会、中国轻工业联合会高职研究会、全国机械行业现代机电技术职教集团等全国性平台5个，以及牵头江苏省轻工协会、江苏机电职教集团等全省性平台9个。
+
+学校是全国首家公办本科层次职业教育试点学校；全国职业院校唯一的国务院大众创业万众创新示范基地；全国首批内部质量保证体系诊断与改进试点学校；全国首批职业教育“走出去”办学的试点院校。
+
+面向新百年、开启新征程，学校将深入贯彻习近平新时代中国特色社会主义思想，落实党的十九大和十九届二中、三中、四中、五中全会精神和第三次党代会提出的“两新一高”战略部署，全面推进本科职业教育改革试点，力争在职业本科教育试点探路的基础上，继续发挥引领示范作用，致力成为高层次技术技能人才培养的示范、职业教育“三全育人”的示范、职业院校“三教改革”的示范、“双师型”教师队伍建设的示范和产教融合的示范，为实现“办世界一流的职业院校，成为大国工匠的摇篮”的愿景努力奋斗。"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="账户信息">
+        <menu>
+            <item
+                android:id="@+id/nav_my_info"
+                android:checkable="true"
+                android:icon="@drawable/ic_message"
+                android:title="个人信息"/>
+        </menu>
+    </item>
+
+    <item android:title="操作">
+        <menu>
+            <item
+                android:id="@+id/nav_school"
+                android:checkable="true"
+                android:icon="@drawable/ic_baseline_school_24"
+                android:title="学校简介"/>
+
+            <item
+                android:id="@+id/nav_professional"
+                android:checkable="true"
+                android:icon="@drawable/ic_baseline_computer_24"
+                android:title="参加考试"/>
+
+            <item
+                android:id="@+id/nav_call"
+                android:checkable="true"
+                android:icon="@drawable/ic_baseline_call_24"
+                android:title="与我联系"/>
+
+            <item
+                android:id="@+id/nav_password"
+                android:checkable="true"
+                android:icon="@drawable/ic_password"
+                android:title="修改密码"/>
+            <item
+                android:id="@+id/nav_back"
+                android:checkable="true"
+                android:icon="@drawable/quit"
+                android:title="切换账号"/>
+
+            <item
+                android:id="@+id/nav_about"
+                android:checkable="true"
+                android:icon="@drawable/ic_baseline_textsms_24"
+                android:title="关于"/>
+        </menu>
+    </item>
+
+</menu>

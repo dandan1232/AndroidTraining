@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_show"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_normal"
+    android:elevation="@dimen/spacing_small"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/spacing_smaller">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/spacing_normal">
+
+        <TableRow>
+            <TextView
+                android:layout_marginRight="@dimen/spacing_smaller"
+                android:text="学号:"
+                android:textSize="@dimen/font_large"/>
+            <TextView
+                android:id="@+id/tv_show_number"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/font_large"
+                tools:text="1902343231"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_marginRight="@dimen/spacing_smaller"
+                android:text="姓名:"
+                android:textSize="@dimen/font_large"/>
+            <TextView
+                android:id="@+id/tv_show_name"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/font_large"
+                tools:text="林丹丹"/>
+            <TextView
+                android:layout_marginRight="@dimen/spacing_smaller"
+                android:text="性别:"
+                android:textSize="@dimen/font_large"/>
+            <TextView
+                android:id="@+id/tv_show_gender"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/font_large"
+                tools:text="女"/>
+        </TableRow>
+
+    </TableLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AboutActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4682B4">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_back" />
+    </LinearLayout>
+
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关于"
+            android:textColor="#E65100"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="        南京工业职业技术大学注重学生的养成教育,重视学生的管理工作。随着教育管理的移动信息化发展,南工的学生管理工作也需要与时俱进,实现管理移动信息化。 "
+            android:textColor="#01579B"
+            android:textSize="20dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="        本系统基于Android系统的实现对学生管理系统的开发。系统使用了JAVA作为开发语言以及与Web服务器通信的方式,将学生考勤、卫生检查、纪律检查等管理实时信息实时反映在教师的手机中,以便实时查看。因此,学生管理的移动信息化极大地提高了学生管理效率。"
+            android:textColor="#01579B"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="       地址：南京市栖霞区仙林大学城羊山北路1号。"
+            android:textColor="#006064"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       版权所有：林丹丹"
+            android:textColor="#006064"
+            android:textSize="20dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       苏ICP备20211103号-1。"
+            android:textColor="#006064"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    tools:context=".activity.ExamOneActivity">
+
+
+    <androidx.constraintlayout.widget.Guideline
+
+        android:id="@+id/guideline3"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.5" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+
+        android:id="@+id/guideline4"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        app:layout_constraintGuide_percent="0.78" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4682B4"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_back" />
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/textView3"
+
+        android:layout_width="367dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="120dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:gravity="fill_horizontal"
+
+        android:lineSpacingExtra="14sp"
+
+        android:text="南京工业职业技术大学的校训为：______、_______"
+
+        android:textAllCaps="false"
+
+        android:textAppearance="@style/TextAppearance.AppCompat"
+
+        android:textSize="29sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+
+        android:id="@+id/button3"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginTop="8dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:text="下一题"
+
+        android:textSize="24sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView4"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="24dp"
+
+        android:layout_marginLeft="24dp"
+
+        android:layout_marginEnd="16dp"
+
+        android:layout_marginRight="16dp"
+
+        android:text="填空一"
+
+        android:textAppearance="@style/TextAppearance.AppCompat"
+
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@+id/editText3"
+
+        app:layout_constraintEnd_toStartOf="@+id/editText3"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="@+id/editText3" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView5"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="24dp"
+
+        android:layout_marginLeft="24dp"
+
+        android:layout_marginEnd="16dp"
+
+        android:layout_marginRight="16dp"
+
+        android:text="填空二"
+
+        android:textAppearance="@style/TextAppearance.AppCompat"
+
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@+id/editText4"
+
+        app:layout_constraintEnd_toStartOf="@+id/editText4"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="@+id/editText4" />
+
+
+
+    <EditText
+
+        android:id="@+id/editText3"
+
+        android:layout_width="200dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="72dp"
+
+        android:layout_marginEnd="50dp"
+
+        android:layout_marginRight="50dp"
+
+        android:ems="10"
+
+        android:inputType="textPersonName"
+
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+
+    <EditText
+
+        android:id="@+id/editText4"
+
+        android:layout_width="200dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+
+        android:layout_marginEnd="50dp"
+
+        android:layout_marginRight="50dp"
+
+        android:ems="10"
+
+        android:inputType="textPersonName"
+
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

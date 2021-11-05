@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_back">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="我的信息"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:focusableInTouchMode="true"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:padding="@dimen/spacing_normal">
+
+                <TextView
+                    style="@style/StuInfoType"
+                    android:text="头像"
+                    />
+
+                <ImageView
+                    android:layout_width="158dp"
+                    android:layout_height="134dp"
+                    android:src="@drawable/avatar" />
+
+            </TableRow>
+
+            <View
+                style="@style/WireThinHorizontal"/>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:padding="@dimen/spacing_normal">
+
+                <TextView
+                    style="@style/StuInfoType"
+                    android:text="姓名"
+                    />
+
+                <TextView
+                    style="@style/MyInfoDetail"
+                    android:text="林丹丹"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:padding="@dimen/spacing_normal">
+
+                <TextView
+                    style="@style/StuInfoType"
+                    android:text="籍贯"
+                    />
+
+                <TextView
+                    style="@style/MyInfoDetail"
+                    android:text="江苏省苏州市常熟市"
+                    />
+
+            </TableRow>
+
+            <View
+                style="@style/WireThinHorizontal"/>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:padding="@dimen/spacing_normal">
+
+                <TextView
+                    style="@style/StuInfoType"
+                    android:text="学校"
+                    />
+
+                <TextView
+                    style="@style/MyInfoDetail"
+                    android:text="南京工业职业技术大学"
+                    />
+
+            </TableRow>
+
+            <View
+                style="@style/WireThinHorizontal"/>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:padding="@dimen/spacing_normal">
+
+                <TextView
+                    style="@style/StuInfoType"
+                    android:text="专业" />
+
+                <TextView
+                    style="@style/MyInfoDetail"
+                    android:text="软件技术" />
+
+            </TableRow>
+
+            <View
+                style="@style/WireThinHorizontal"/>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:padding="@dimen/spacing_normal">
+
+                <TextView
+                    style="@style/StuInfoType"
+                    android:text="爱好" />
+
+                <TextView
+                    style="@style/MyInfoDetail"
+                    android:text="学习" />
+
+            </TableRow>
+
+            <View
+                style="@style/WireThinHorizontal"/>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
